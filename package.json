@@ -2,12 +2,12 @@
   "name": "pryv-node-csv-importer",
   "version": "1.0.0",
   "description": "CSV importer for Pryv backend",
-  "main": "index.js",
+  "main": "src/main.js",
   "directories": {
-    "test": "tests"
+    "test": "test"
   },
   "scripts": {
-    "test": "mocha test test/**/*.test.js"
+    "test": "mocha test/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "should": "^11.1.1"
   },
   "dependencies": {
-    "async": "^2.1.2"
+    "async": "^2.1.2",
+    "pryv": "^1.0.0"
   }
 }
